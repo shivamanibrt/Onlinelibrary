@@ -1,0 +1,20 @@
+.name-log {
+  background: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+
+  border: 6px solid rgb(121, 121, 193);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: rgb(76, 76, 195);
+}
+.review-content {
+  width: calc(100% - 130px);
+}

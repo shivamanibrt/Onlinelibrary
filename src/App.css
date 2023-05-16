@@ -1,0 +1,56 @@
+:root {
+  --mainBg: rgb(224, 234, 252);
+}
+
+body {
+  background: var(--mainBg) !important;
+}
+.main {
+  min-height: 80vh;
+}
+
+.navbar-brand {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--mainBg);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-brand i {
+  font-size: 2rem;
+}
+.navbar-brand a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.6rem;
+}
+
+.use-layout {
+  display: flex;
+}
+
+.left {
+  color: white;
+  /* width: 30%; */
+  min-width: 200px;
+  position: fixed;
+  height: 100%;
+}
+
+.right {
+  background: white;
+  width: calc(100% - 200px);
+  margin-left: auto;
+}
+
+.sidbar li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+table {
+  text-align: left;
+}
